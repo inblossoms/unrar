@@ -1,0 +1,32 @@
+{
+  "name": "cmd-unrar",
+  "version": "0.1.1",
+  "description": "By extracting the.rar file from the command line.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "unrar": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "unrar"
+  ],
+  "author": {
+    "name": "inblossoms"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inblossoms/unrar.git"
+  },
+  "homepage": "https://github.com/inblossoms/unrar",
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "unrar-promise": "^3.1.0",
+    "yargs": "^17.7.2"
+  },
+  "license": "MIT"
+}
